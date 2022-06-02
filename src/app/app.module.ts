@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ControlareaComponent } from './map/controlarea/controlarea.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ControlareaComponent
   ],
   imports: [
     BrowserModule
